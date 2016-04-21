@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+import java.net.*;
 
 public class Billy
 {
@@ -127,6 +128,11 @@ public class Billy
 			missions(rank,1);
 		}
 	}
+
+	private void getRankings()
+	{
+		URL url = new URL("http://animecubed.com/billy/bvs/topplayers.html");
+	}
 	
 	public static void main(String[] args)
 	{
@@ -159,6 +165,15 @@ public class Billy
 		b.missionsUntilDone("A");
 		
 		//hottie regeneration jutsu +100 stamina
+		b.setStamina(b.getStamina()+100);
+
+		//7-day bonus. 100 stamina base + 100 more
+		b.setStamina(b.getStamina()+200);
+
+		//250 spar(?) bonus
+		b.setStamina(b.getStamina()+100);
+
+		//video question
 		b.setStamina(b.getStamina()+100);
 
 		b.missionsUntilDone("A");
