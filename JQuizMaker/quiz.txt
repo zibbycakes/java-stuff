@@ -1,0 +1,286 @@
+<form name="quiz">
+
+<!-- Question 1-->
+	<div class="questionLineOdd"><b>1. </b>&nbsp;&nbsp;underwear：
+	  <input name="answer" onchange="checkAnswer('したぎ',this.value,0)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 2-->
+	<div class="questionLineEven"><b>2. </b>&nbsp;&nbsp;(mens) dress shirt：
+	  <input name="answer" onchange="checkAnswer('ワイシャツ',this.value,1)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 3-->
+	<div class="questionLineOdd"><b>3. </b>&nbsp;&nbsp;to wear/put on (over head)：
+	<input name="answer" onchange="checkAnswer('かぶる',this.value,2)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p>
+	</div>
+
+	<!-- Question 4-->
+	<div class="questionLineEven"><b>4. </b>&nbsp;&nbsp;bra：
+	<input name="answer" onchange="checkAnswer('ブラジャー',this.value,3)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p>
+	</div>
+	
+	<!-- Question 5-->
+    <div class="questionLineOdd"><b>5. </b>&nbsp;&nbsp;Japanese-style clothes：
+	<input name="answer" onchange="checkAnswer('わふく',this.value,4)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 6-->
+	<div class="questionLineEven"><b>6. </b>&nbsp;&nbsp;sunglasses：
+	<input name="answer" onchange="checkAnswer('サングラス',this.value,5)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 7-->
+	<div class="questionLineOdd"><b>7. </b>&nbsp;&nbsp;t-shirt：
+	<input name="answer" onchange="checkAnswer('Tシャツ_tシャツ_T−シャツ_ティーシャツ',this.value,6)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 8-->
+	<div class="questionLineEven"><b>8. </b>&nbsp;&nbsp;skirt：
+	<input name="answer" onchange="checkAnswer('スカート',this.value,7)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 9-->
+	<div class="questionLineOdd"><b>9. </b>&nbsp;&nbsp;bathing suit：
+	<input name="answer" onchange="checkAnswer('みずぎ',this.value,8)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 10-->
+	<div class="questionLineEven"><b>10. </b>&nbsp;&nbsp;glasses：
+	<input name="answer" onchange="checkAnswer('めがね',this.value,9)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 11-->
+	<div class="questionLineOdd"><b>11. </b>&nbsp;&nbsp;jeans：
+	<input name="answer" onchange="checkAnswer('ジーンズ_ジーパン',this.value,10)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 12-->
+	<div class="questionLineEven"><b>12. </b>&nbsp;&nbsp;muffler：
+	<input name="answer" onchange="checkAnswer('マフラー',this.value,11)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 13-->
+	<div class="questionLineOdd"><b>13. </b>&nbsp;&nbsp;sweater：
+	<input name="answer" onchange="checkAnswer('セーター',this.value,12)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 14-->
+	<div class="questionLineEven"><b>14. </b>&nbsp;&nbsp;to take off：
+	<input name="answer" onchange="checkAnswer('ぬぐ',this.value,13)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+    
+    <!-- Question 15-->
+	<div class="questionLineOdd"><b>15. </b>&nbsp;&nbsp;shorts：
+	<input name="answer" onchange="checkAnswer('ショートパンツ_ショート・パンツ',this.value,14)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 16-->
+	<div class="questionLineEven"><b>16. </b>&nbsp;&nbsp;necktie：
+	<input name="answer" onchange="checkAnswer('ネクタイ',this.value,15)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+    
+    <!-- Question 17-->
+	<div class="questionLineOdd"><b>17. </b>&nbsp;&nbsp;dress (one piece)：
+	<input name="answer" onchange="checkAnswer('ワンピース',this.value,16)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 18-->
+	<div class="questionLineEven"><b>18. </b>&nbsp;&nbsp;handkerchief：
+	<input name="answer" onchange="checkAnswer('ハンカチ',this.value,17)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+    
+      <!-- Question 19-->
+	<div class="questionLineOdd"><b>19. </b>&nbsp;&nbsp;kimono：
+	<input name="answer" onchange="checkAnswer('きもの',this.value,18)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 20-->
+	<div class="questionLineEven"><b>20. </b>&nbsp;&nbsp;shirt：
+	  <input name="answer" onchange="checkAnswer('シャツ',this.value,19)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 21-->
+	<div class="questionLineOdd"><b>21. </b>&nbsp;&nbsp;hat; cap：
+	  <input name="answer" onchange="checkAnswer('ぼうし',this.value,20)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 22-->
+	<div class="questionLineEven"><b>22. </b>&nbsp;&nbsp;stockings：
+	  <input name="answer" onchange="checkAnswer('ストッキング',this.value,21)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 23-->
+	<div class="questionLineOdd"><b>23. </b>&nbsp;&nbsp;belt：
+	<input name="answer" onchange="checkAnswer('ベルト',this.value,22)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p>
+	</div>
+
+	<!-- Question 24-->
+	<div class="questionLineEven"><b>24. </b>&nbsp;&nbsp;to wear; to put on：
+	<input name="answer" onchange="checkAnswer('きる',this.value,23)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p>
+	</div>
+	
+    <!-- Question 25-->
+	<div class="questionLineOdd"><b>25. </b>&nbsp;&nbsp;negligee：
+	<input name="answer" onchange="checkAnswer('ネグリジェ',this.value,24)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 26-->
+	<div class="questionLineEven"><b>26. </b>&nbsp;&nbsp;pajamas：
+	<input name="answer" onchange="checkAnswer('パジャマ',this.value,25)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 27-->
+	<div class="questionLineOdd"><b>27. </b>&nbsp;&nbsp;trousers：
+	<input name="answer" onchange="checkAnswer('ズボン',this.value,26)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 28-->
+	<div class="questionLineEven"><b>28. </b>&nbsp;&nbsp;boot：
+	<input name="answer" onchange="checkAnswer('ブーツ',this.value,27)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 29-->
+	<div class="questionLineOdd"><b>29. </b>&nbsp;&nbsp;Western-style clothes：
+	<input name="answer" onchange="checkAnswer('ようふく',this.value,28)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 30-->
+	<div class="questionLineEven"><b>30. </b>&nbsp;&nbsp;briefs：
+	<input name="answer" onchange="checkAnswer('パンツ',this.value,29)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+    
+	
+	<!-- Question 31-->
+	<div class="questionLineOdd"><b>31. </b>&nbsp;&nbsp;coat：
+	  <input name="answer" onchange="checkAnswer('コート',this.value,30)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 32-->
+	<div class="questionLineEven"><b>32. </b>&nbsp;&nbsp;to wear/put on (things that need attaching)：
+	  <input name="answer" onchange="checkAnswer('つける',this.value,31)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 33-->
+	<div class="questionLineOdd"><b>33. </b>&nbsp;&nbsp;blouse：
+	<input name="answer" onchange="checkAnswer('ブラウス',this.value,32)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p>
+	</div>
+
+	<!-- Question 34-->
+	<div class="questionLineEven"><b>34. </b>&nbsp;&nbsp;shoe(s)：
+	<input name="answer" onchange="checkAnswer('くつ',this.value,33)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p>
+	</div>
+	
+    <!-- Question 35-->
+	<div class="questionLineOdd"><b>35. </b>&nbsp;&nbsp;dress：
+	<input name="answer" onchange="checkAnswer('ドレス',this.value,34)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 36-->
+	<div class="questionLineEven"><b>36. </b>&nbsp;&nbsp;to wear/put on (over legs of feet)：
+	<input name="answer" onchange="checkAnswer('はく',this.value,35)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 37-->
+	<div class="questionLineOdd"><b>37. </b>&nbsp;&nbsp;suit：
+	<input name="answer" onchange="checkAnswer('せびろ',this.value,36)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+
+	<!-- Question 38-->
+	<div class="questionLineEven"><b>38. </b>&nbsp;&nbsp;sportswear：
+	<input name="answer" onchange="checkAnswer('スポーツウェア_スポーツ・ウェア',this.value,37)" style="width: 150px;" type="text">
+    
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+	
+	<!-- Question 39-->
+	<div class="questionLineOdd"><b>39. </b>&nbsp;&nbsp;sock(s)：
+	<input name="answer" onchange="checkAnswer('くつした',this.value,38)" style="width: 150px;" type="text">
+	
+	<img src="../../../../grammar/gimages/blank.gif" class="symbols">
+	<p class="translationLine"></p></div>
+    
+	
+
+</form>
